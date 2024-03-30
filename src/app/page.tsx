@@ -124,6 +124,7 @@ const products: ProductItemType[] = [
 	},
 ];
 
+// eslint-disable-next-line import/no-default-export
 export default function Home() {
 	return (
 		<section className="mx-auto max-w-md bg-white p-12 sm:max-w-2xl md:max-w-7xl">
