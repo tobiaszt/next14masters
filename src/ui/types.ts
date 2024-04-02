@@ -4,6 +4,7 @@ export type ProductItemType = {
 	name: string;
 	price: number;
 	coverImage: ProductListItemCoverImageType;
+	description: string;
 };
 
 export type ProductListItemCoverImageType = {
